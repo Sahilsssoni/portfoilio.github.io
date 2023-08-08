@@ -591,9 +591,9 @@ button{
         display: inline-block;
     }
     a{
-        font-size: large;
+        font-size: smaller;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-weight: bold;
+        font-weight: 200;
         text-decoration: none;
         color: darkgreen;
     }
@@ -605,7 +605,7 @@ button{
         
         color: rgb(0, 106, 255);
         text-shadow: 1ch 1ch 1ch white;
-        font-size: small;
+        font-size: smaller;
         margin-left: 10px;
         text-transform: capitalize;
     }
@@ -629,7 +629,7 @@ button{
         font-size: 20px;
         color: red;
         text-shadow: 1ch 1ch 1ch white;
-        margin: 100px 20px;
+        margin: 70px 20px;
         
     }
     h2{
@@ -646,7 +646,7 @@ button{
     background-size: cover;
     height: fit-content;
     width: 60%;
-    margin: 50px 100px;
+    margin: 50px 70px;
     display: grid;
     align-items: center;
     padding: 1%;
@@ -772,7 +772,7 @@ h3{
         padding: 5px;
         margin: 13px;
         height: fit-content;
-        width: 94%;
+        width: 92%;
         border: 2px ;
         border-color: black;
         border-style: groove;
@@ -808,16 +808,21 @@ h3{
         font-size: medium;
         text-align: justify;
     }
+    .head3{
+        font-size: 10px;
+        color: black;
+}
     .contact{
+        justify-content: center;
         background-color: rgb(255, 179, 0);
-        padding: 200px;
-        padding-left: 20px;
+        padding-top: 200px;
+        
         
     }
     .cont{
-        font-size: smaller;
+        font-size: 10px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-weight: 500;
+        font-weight: 100;
         
         
     }
